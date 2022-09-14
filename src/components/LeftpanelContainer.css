@@ -1,0 +1,134 @@
+.body-container__left {
+    width: 50%;
+    padding-right: 1.2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    padding-top: .8rem;
+    /* border: 2px solid blue; */
+
+
+}
+
+.left-body__top {
+    /* border: 2px solid red; */
+    height: 17rem;
+    position: relative;
+    width: 100%;
+
+}
+
+.display-image__label {
+    position: absolute;
+    /* border: 2px solid blueviolet; */
+    height: 100%;
+    width: 21rem;
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-right: 1rem; */
+}
+
+.choose-image-container {
+    position: absolute;
+    right: 0;
+    /* border: 2px solid red; */
+    height: 100%;
+    width: calc(100% - 21rem);
+    /* padding: 1.5rem 0rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.img {
+    height: 3rem;
+    width: 3rem;
+    /* border: 2px solid rebeccapurple; */
+
+}
+
+.img:hover {
+    border: 2px solid black;
+}
+
+.img1 {
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\2img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.img2 {
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\3img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\4img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\5img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-body__bottom {
+    position: relative;
+    bottom: 0;
+    /* border: 2px solid blue; */
+    height: calc(100% - 17rem);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-inner-container {
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    height: 1.5rem;
+    align-items: center;
+    margin: .5rem 0rem 0 0;
+    width: 100%;
+    margin: 1rem 0 .5rem 0;
+}
+
+
+.text-content {
+    font-size: .8rem;
+}
+
+.btn-container {
+    display: flex;
+    position: absolute;
+    right: 0rem;
+    gap: 1rem;
+    height: 75%;
+}
+
+.btn {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.items-container {
+    display: flex;
+    height: 65%;
+    /* border: 2px solid black; */
+    gap: 1.4rem;
+    width: 100%;
+    /* padding: 1rem; */
+
+}
+

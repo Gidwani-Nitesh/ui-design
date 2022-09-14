@@ -1,0 +1,103 @@
+.nav-wrapper {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center;  */
+    /* position: absolute; */
+    /* display: flex; */
+    /* width: 100%; */
+    /* margin: 0rem 2rem */
+    position: relative;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav-container {
+    position: absolute;
+    left: 2rem;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    gap: 2.4rem;
+    align-items: center;
+    color: black;
+}
+
+.nav-bar__links {
+    color: black;
+    text-decoration: none;
+}
+
+.left-nav__menuIcon {
+    display: flex;
+    font-size: 13px;
+}
+
+.center-nav-container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.couch-logo {
+    font-size: 3rem;
+    margin-bottom: -.6rem;
+}
+
+.couchlogo{
+    height: 2rem;
+}
+
+#title {
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+}
+
+.right-nav-container {
+    position: absolute;
+    right: 2rem;
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.handbag-icon {
+    background-color: rgb(183, 179, 179);
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    font-size: 0.9rem;
+}
+
+.handbag {
+    position: absolute;
+    font-size: 14px;
+}
+
+.handbag-badge {
+    position: absolute;
+    height: 0.6rem;
+    width: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 136, 0);
+    border-radius: 50%;
+    font-size: 0.4rem;
+    top: 0;
+    right: 0;
+    color: #fff;
+}

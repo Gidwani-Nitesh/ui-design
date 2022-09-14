@@ -1,0 +1,18 @@
+.my-card_wrapper {
+    height: 42rem;
+    width: 65rem;
+    border: 2px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3rem solid #e2e3e7;
+    overflow: hidden;
+}
+
+.my-card_inner_container{
+height: 100%;
+background-color: white;
+position: relative;
+overflow: hidden;
+}

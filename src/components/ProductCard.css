@@ -1,0 +1,49 @@
+.item {
+    display: flex;
+    height: 100%;
+    width: 6rem;
+    /* border: 2px solid green; */
+    flex-direction: column;
+}
+.item:hover{
+border: .4rem solid transparent;
+}
+
+.item__pic1-container {
+    /* position: absolute; */
+    height: 80%;
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\img6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__pic2-container {
+    /* position: absolute; */
+    height: 80%;
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\img7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__pic3-container {
+    /* position: absolute; */
+    height: 80%;
+    background: url('C:\Users\Nitesh Gidwani\OneDrive\Desktop\React Practice\my_app\src\media\img8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__desc-container {
+    display: flex;
+    font-size: 0.7rem;
+    position: relative;
+    padding: 2px;
+    height: 1rem;
+}
+
+.item__price {
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+
+}

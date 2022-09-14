@@ -1,0 +1,11 @@
+.body-container-wrapper {
+    margin: 0.2rem 2rem 0 2rem;
+    /* border:2px solid black; */
+    height: calc(100% - 6rem);
+    /* width:20rem; */
+    display: flex;
+    /* flex: 1; */
+    width: calc(100% - 4rem);
+    padding: .5rem 0;
+}
+
